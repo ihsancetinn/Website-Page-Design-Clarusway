@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: mons
+}
+
+a {
+    text-decoration: none;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #35424A;
+    padding: 10px;
+    border-bottom: 4px solid #A24F88;
+}
+.header1 {
+    color: #ffff;
+}
+.Clarusway{
+    color: #A24F88;
+}
+.nav-links{
+    align-self: center;
+    font-weight:400;
+    text-transform:none;
+    text-decoration:none solid rgb(162, 79, 136);
+    text-align:left;
+    list-style-type: none;
+    display: flex;
+}
+.link1{
+color: #ffff;
+font-weight: 600;
+transition: all 0.5s;
+}
+.link1:hover {
+color: #A24F88;
+}
+.link3{
+color: #A24F88;
+transition: all 0.5s;
+font-weight:600;
+}
+.link3:hover {
+color: #ffff;
+}
+#first-part {  height: 250px;
+    background-image: url("./img/showcase.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+
+}
+.part1{
+    margin: auto;
+    text-align: center;
+    color: #ffff;
+}
+.part1 h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;}
+
+#subscribe {
+       
+        display: flex;
+        justify-content: space-between;
+        background-color: #35424A;
+        padding: .8rem;
+        color: #ffff;
+    }
+.subscribe-heading {
+        align-self: center;
+    }
+.input {
+        align-self: center;
+    }
+
+#box {
+        outline: none;
+        padding: 5px;
+    }
+#button {
+        background-color: orangered;
+        color: #ffff;
+        padding: 7px 10px;
+        border: none;
+        cursor: pointer;
+        transition: all 1s;
+    }
+#button:hover {
+        background-color: blue;
+    }
+.lessons {
+        display: flex;
+        justify-content: space-around;
+      }
+      .lesson{
+        text-align: center;
+        padding: 1rem;
+      }
+      .img{
+        max-width: 80px;
+  margin-bottom: 9px;
+      }
+      .small-header {
+        margin-bottom: 10px;
+        font-weight: bolder;
+        font-size: .9rem;
+        
+      }
+      footer {
+        background-color: #35424A;
+        color: #ffff;
+        text-align: center;
+        padding: 9px;
+        font-size: .8rem;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+.Clarusway-Logo {
+        max-width: 195px;
+        margin-top: 5px;
+    }
